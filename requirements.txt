@@ -1,0 +1,9 @@
+ogbench==1.2.0
+jax[cuda12] >= 0.4.26
+flax==0.10.5
+distrax==0.1.5
+ml_collections==1.1.0
+matplotlib
+moviepy
+tqdm
+wandb==0.19.9
