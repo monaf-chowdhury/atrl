@@ -5,7 +5,7 @@ __pycache__/
 .DS_Store
 .idea/
 .ruff_cache/
-*.sh
+# *.sh
 exp
 Transfer
 ipynbs

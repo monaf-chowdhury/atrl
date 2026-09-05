@@ -20,11 +20,11 @@ Latest hyperparameters will be provided once they are finalized. But before that
 python main.py \
     --env_name=scene-play-oraclerep-v0 \
     --agent=agents/atrl.py \
-    --agent.lam=1.0 \
+    --agent.lam=0.7 \
     --agent.expectile=0.7 \
     --agent.oracle_distill=True \
     --agent.pe_type=rpg \
-    --agent.rpg.alpha=1 \
+    --agent.rpg.alpha=1.5 \
     --agent.discount=0.99 \
     --agent.td_expectile=0.5 \
     --agent.use_anchored_target=True \
